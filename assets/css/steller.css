@@ -11498,7 +11498,7 @@ pre {
 }
 
 .header .container .img-holder {
-  height: 70%;
+  height: 40%;
   -webkit-align-self: auto;
       -ms-flex-item-align: auto;
           align-self: auto;
@@ -11518,7 +11518,7 @@ pre {
 }
 
 .header .container .img-holder img {
-  width: 70%;
+  width: 80%;
   max-width: 620px;
   -webkit-filter: drop-shadow(0 -4px 20px rgba(206, 212, 218, 0.4));
           filter: drop-shadow(0 -4px 20px rgba(206, 212, 218, 0.4));
