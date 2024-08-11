@@ -1,519 +1,723 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Start your development with Steller landing page.">
+    <meta name="description" content="Resume">
     <meta name="author" content="Devcrud">
-    <title>my resume</title>
+    <title>Resume</title>
     <!-- font icons -->
     <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
-    <!-- Bootstrap + Steller main styles -->
-	<link rel="stylesheet" href="assets/css/steller.css">
+    <!-- Bootstrap + JohnDoe main styles -->
+	<link rel="stylesheet" href="assets/css/johndoe.css">
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
-
-    <!-- Page navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" data-spy="affix" data-offset-top="0">
+    <!-- <a href="components.html" class="btn btn-primary btn-component" data-spy="affix" data-offset-top="600"><i class="ti-shift-left-alt"></i> Components</a> -->
+    <header class="header">
         <div class="container">
-            <a class="navbar-brand" href="#"><img src="assets/imgs/logo.svg" alt=""></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto align-items-center">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#home">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
-                    </li> 
-                    <li class="nav-item">
-                        <a class="nav-link" href="#service">Service</a>
-                    </li>        
-                    <li class="nav-item">
-                        <a class="nav-link" href="#skills">Skills</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#portfolio">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#intern">Internships</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </div>          
-    </nav>
-    <!-- End of page navibation -->
-
-    <!-- Page Header -->
-    <header class="header" id="home">
-        <div class="container">
-            <div class="infos">
-                <h6 class="subtitle">Hello, I'm</h6>
-                <h6 class="title">Wendyam YAMEOGO</h6>
-                <p>Junior Data scientist and developper</p>
-
-                <div class="buttons pt-3">
-                    <a target="_blank" class="btn btn-dark rounded" href="assets/imgs/curriculum vitae.pdf" download="curriculum vitae">DOWNLOAD CV</a>
-                </div>      
-
-                <div class="socials mt-4">
-                    <a class="social-item" href="https://github.com/Yameogo123" target="_blank"><i class="ti-github"></i></a>
-                    <a class="social-item" href="https://www.linkedin.com/in/wendyam-yameogo/" target="_blank"><i class="ti-linkedin"></i></a>
-                </div>
-            </div>              
-            <div class="img-holder">
-                <img src="assets/imgs/accueil.png" alt="">
-            </div>      
-        </div>  
-
-        <!-- Header-widget -->
-        <div class="widget">
-            <div class="widget-item">
-                <h2>3</h2>
-                <p>School Projects Completed</p>
-            </div>
-            <div class="widget-item">
-                <h2>3</h2>
-                <p>Real Projects Completed</p>
-            </div>
-            <div class="widget-item">
-                <h2>1</h2>
-                <p>Awards Won</p>
+            <ul class="social-icons pt-3">
+                <li class="social-item"><a class="social-link text-light" href="https://www.facebook.com/yameogoivan10/"><i class="ti-facebook" aria-hidden="true"></i></a></li>
+                <li class="social-item"><a class="social-link text-light" href="https://www.linkedin.com/in/wendyam-yameogo/"><i class="ti-linkedin" aria-hidden="true"></i></a></li>
+                <li class="social-item"><a class="social-link text-light" href="https://www.instagram.com/maximilien_ivan/"><i class="ti-instagram" aria-hidden="true"></i></a></li>
+                <li class="social-item"><a class="social-link text-light" href="https://github.com/Yameogo123"><i class="ti-github" aria-hidden="true"></i></a></li>
+            </ul>  
+            <div class="header-content">
+                <h4 class="header-subtitle" >Hello, I am</h4>
+                <h1 class="header-title">Wendyam YAMEOGO</h1>
+                <h6 class="header-mono" >Junior Data scientist | Developer</h6>
+                <a target="_blank" href="assets/cv2.pdf" download="curriculum vitae" class="btn btn-primary btn-rounded">
+                    <i class="ti-printer pr-2"></i>Print Resume
+                </a>
             </div>
         </div>
     </header>
-    <!-- End of Page Header -->
-    
-    <!-- About section -->
-    <section id="about" class="section mt-3">
-        <div class="container mt-5">
-            <div class="row text-center text-md-left">
-                <div class="col-md-3">
-                    <img src="assets/imgs/data.png" alt="" class="img-thumbnail mb-4">
-                </div>
-                <div class="pl-md-4 col-md-9">
-                    <h6 class="title">Small Biography</h6>
-                    <p>After three year of Applied Mathematics and econometry/ Informatics (double bachelor degree). I studied two years of statistics and informatics for data science as master degree </p>
-                    <p>As I am curious and I like all kind of development (algorithm) I learn mobile and web development by myself; thanks to online certifications apps as OpenClassrooms and DataCamp. But my domain of expertise is data (machine learning, a little of deep learning and data analysis)</p>
-                    <a target="_blank" class="btn btn-primary rounded mt-3" href="assets/imgs/curriculum vitae.pdf" download="curriculum vitae">DOWNLOAD CV</a>                 
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Service section -->
-    <section id="service" class="section">
-        <div class="container text-center">
-            <h6 class="subtitle">Services</h6>
-            <h6 class="section-title mb-4">What I Can Do</h6>
-            <p class="mb-5 pb-4">Find below what I am capable of. <br> The different field I word on.</p>
-
-            <div class="row">
-                <div class="col-sm-6 col-md-3 mb-4">
-                    <div class="custom-card card border">
-                        <div class="card-body">
-                            <i class="icon ti-bar-chart"></i>
-                            <h5>Machine learning / MLOps</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-3 mb-4">
-                    <div class="custom-card card border">
-                        <div class="card-body">
-                            <i class="icon ti-dashboard"></i>
-                            <h5>Data analysis</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-3 mb-4">
-                    <div class="custom-card card border">
-                        <div class="card-body">
-                            <i class="icon ti-mobile"></i>
-                            <h5> Mobile/web development</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-3 mb-4">
-                    <div class="custom-card card border">
-                        <div class="card-body">
-                            <i class="icon ti-dashboard"></i>
-                            <h5>IA/ Deep learning</h5>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- End of Sectoin -->
-
-    <!-- Skills section -->
-    <section class="section" id="skills">
-        <div class="container text-center">
-            <h6 class="subtitle">Skills</h6>
-            <h6 class="section-title mb-4">Why Choose me</h6>
-            <p class="mb-5 pb-4">I used to worked with different kind of langages. <br></p>
-
-            <div class="row text-left">
-                <div class="col-sm-6">
-                    <h6 class="mb-3">Python (for machine/deep learning - data viz and engineering ) </h6>
-                    <div class="progress">
-                        <div class="progress-bar bg-primary" role="progressbar" style="width: 95%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><span>89%</span></div>
-                    </div>
-                </div>
-                <div class="col-sm-6">
-                    <h6 class="mb-3">R (for machine learning)</h6>
-                    <div class="progress">
-                        <div class="progress-bar bg-primary" role="progressbar" style="width: 95%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><span>83%</span></div>
-                    </div>
-                </div>
-                <div class="col-sm-6">
-                    <h6 class="mb-3">Java/Javascript (for web and mobile)</h6>
-                    <div class="progress">
-                        <div class="progress-bar bg-primary" role="progressbar" style="width: 85%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><span>95%</span></div>
-                    </div>
-                </div>
-                <div class="col-sm-6">
-                    <h6 class="mb-3">HTML/CSS/PHP (for web)</h6>
-                    <div class="progress">
-                        <div class="progress-bar bg-primary" role="progressbar" style="width: 90%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><span>90%</span></div>
-                    </div>
-                </div>
-            </div>  
-
-            <br /> <br /> <br /> 
-            <p class="mb-5 pb-4">The frameworks I use(d). <br></p>
-
-            <div class="row text-left">
-                <div class="col-sm-6">
-                    <h6 class="mb-3">CLOUD: (AZURE) -> use azureml, put a model in production and consume it</h6>
-                    <div class="progress">
-                        <div class="progress-bar bg-primary" role="progressbar" style="width: 85%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><span>89%</span></div>
-                    </div>
-                </div>
-                <div class="col-sm-6">
-                    <h6 class="mb-3">DATA ANALYSIS: (TABLEAU - POWER BI) -> for data visualisation and analysis</h6>
-                    <div class="progress">
-                        <div class="progress-bar bg-primary" role="progressbar" style="width: 83%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><span>83%</span></div>
-                    </div>
-                </div>
-                <div class="col-sm-6">
-                    <h6 class="mb-3">ETL: (TALEND - NIFI) -> to extract, transform and load data in database. </h6>
-                    <div class="progress">
-                        <div class="progress-bar bg-primary" role="progressbar" style="width: 85%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><span>95%</span></div>
-                    </div>
-                </div>
-                <div class="col-sm-6">
-                    <h6 class="mb-3">DATA SCIENCE: (DATAIKU - KNIME) -> to do a no code job in machine learning</h6>
-                    <div class="progress">
-                        <div class="progress-bar bg-primary" role="progressbar" style="width: 80%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><span>90%</span></div>
-                    </div>
-                </div>
-                <div class="col-sm-6">
-                    <h6 class="mb-3">FRONTEND: (DASH - RSHINY - REACTJS - REACT NATIVE) -> to make front-end that will be connected to different API, backend or models</h6>
-                    <div class="progress">
-                        <div class="progress-bar bg-primary" role="progressbar" style="width: 85%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><span>95%</span></div>
-                    </div>
-                </div>
-                <div class="col-sm-6">
-                    <h6 class="mb-3">BACKEND: (FASTAPI - FLASK - NODEJS) -> to put machine learning models in production or connect with a database</h6>
-                    <div class="progress">
-                        <div class="progress-bar bg-primary" role="progressbar" style="width: 80%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><span>90%</span></div>
-                    </div>
-                </div>
-                <div class="col-sm-6">
-                    <h6 class="mb-3">CMS: (WORDPRESS and SHOPIFY) -> for web application or sites development</h6>
-                    <div class="progress">
-                        <div class="progress-bar bg-primary" role="progressbar" style="width: 80%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><span>90%</span></div>
-                    </div>
-                </div>
-                <div class="col-sm-6">
-                    <h6 class="mb-3">MLOPS (Docker) -> for containerization, versioning, and launching several containers at the same time (docker compose)</h6>
-                    <div class="progress">
-                        <div class="progress-bar bg-primary" role="progressbar" style="width: 80%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><span>90%</span></div>
-                    </div>
-                </div>
-            </div>  
-        </div>
-    </section>
-    <!-- End of Skills sections -->
-
-    <!-- Blog Section -->
-    <section id="portfolio" class="section">
-        <div class="container text-center">
-            <h6 class="subtitle">Portfolio</h6>
-            <h6 class="section-title mb-4">Check Some of My Works</h6>
-            <p class="mb-5 pb-4">Real projects and some important school projects. <br /> Please be free to check them.</p>
-
-            <div class="row text-left">
-                <div class="col-md-4">
-                    <div class="card border mb-4">
-                        <img src="assets/imgs/nv.webp" alt="" class="card-img-top w-100">
-                        <div class="card-body">
-                            <h5 class="card-title">Naive Bayes Classifier</h5>
-                            <div class="post-details">
-                                <div>Package in R</div>
-                                <a href="https://github.com/Yameogo123/naive_bayes_classifier"><i class="ti-github"></i></a>
-                            </div>
-                            <p>school project about the naive bayes classifier algorithm recoded with parallelization and in R6 class. R is the language used. An Rshiny app is available as well as the github explaining how to use it.</p>
-                            <a href="https://github.com/Yameogo123/naive_bayes_classifier">check..</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card border mb-4">
-                        <img src="assets/imgs/docker.png" alt="" class="card-img-top w-100">
-                        <div class="card-body">
-                            <h5 class="card-title">Docker and HuggingFace</h5>
-                            <div class="post-details">
-                                <div>MLOPS skills</div>
-                                <a href=" https://yameogo123-backend.hf.space/docs"><i class="ti-link"></i></a>
-                                <a href=" https://yameogo123-frontend.hf.space"><i class="ti-link"></i></a>
-                            </div>
-                            <p>
-                                school project about how to use docker to host share and keep the same version of our machine learning project. 
-                                (Another thing was about knowing how to push docker image into hugging face for instance)
-                            </p>
-                            <a href="https://github.com/Yameogo123/mlops-docker-job">check..</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card border mb-4">
-                        <img src="assets/imgs/blog-3.jpg" alt="" class="card-img-top w-100">
-                        <div class="card-body">
-                            <h5 class="card-title">Houses prices prediction</h5>
-                            <div class="post-details">
-                                <div>Machine learning</div>
-                                <a href="https://github.com/Naghan1132/Property_price_prediction"><i class="ti-github"></i></a>
-                            </div>
-                            <p>school project where we worked on classification and regression to predict prices of different type of houses. We worked on python (for models), dash (for the front end), fastapi (to consume the model)</p>
-                            <a href="https://github.com/Naghan1132/Property_price_prediction">Read More..</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card border mb-4">
-                        <img src="assets/imgs/appstore.png" alt="" class="card-img-top w-100">
-                        <div class="card-body">
-                            <h5 class="card-title">Bokoo carpool</h5>
-                            <div class="post-details">
-                                <div>mobile application</div>
-                                <a href="https://apps.apple.com/fr/app/bokoo-sn/id6450633050?l=en-GB"><i class="ti-apple"></i></a>
-                                <a href="https://play.google.com/store/apps/details?id=com.bokoo.frontcar&pcampaignid=web_share"><i class="ti-android"></i></a>
-                            </div>
-                            <p>real project about an app for carpoooling. Backend with nodejs (API); chatbot with python (FASTAPI); front end with react native.</p>
-                            <a href="https://bokoo.sn">check</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card border mb-4">
-                        <img src="assets/imgs/wordp.jpeg" alt="" class="card-img-top w-100">
-                        <div class="card-body">
-                            <h5 class="card-title">Lafya Proj' Etude</h5>
-                            <div class="post-details">
-                                <div>web application</div>
-                                <a href="https://lafya-projet-etude.fr"><i class="ti-link"></i></a>
-                            </div>
-                            <p>real project with wordpress.</p>
-                            <a href="https://lafya-projet-etude.fr">check</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card border mb-4">
-                        <img src="assets/imgs/wordp.jpeg" alt="" class="card-img-top w-100">
-                        <div class="card-body">
-                            <h5 class="card-title">Association EJI</h5>
-                            <div class="post-details">
-                                <div>web application</div>
-                                <a href="https://assoeji.com"><i class="ti-link"></i></a>
-                            </div>
-                            <p>Real project with wordpress.</p>
-                            <a href="https://assoeji.com">check</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </section>
-
-    <!-- Internship section -->
-    <section id="intern" class="section">
-        <div class="container text-center">
-            <h6 class="subtitle">Internships</h6>
-            <h6 class="section-title mb-4">Where I did my interships and what I learned</h6>
-
-            <div class="row">
-                <div class="col-sm-6 col-md-4 mb-4">
-                    <div class="custom-card card border">
-                        <div class="card-body">
-                            <h5>KEYRUS: </h5>
-                            <p>Lyon, France</p>
-                            <br/>
-                            <div>2023-2024</div>
-                            <div>
-                                Keyrus is a data and digital consulting <br/> company and I am an intern in <br/>
-                                their subsidiary in France.<br/>
-                                6 month internsip in keyrus France <br/> to work and learn as intern data consultant. 
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-4 mb-4">
-                    <div class="custom-card card border">
-                        <div class="card-body">
-                            <h5>IARC: </h5>
-                            <p>International Agency for Research on Cancer (OMS). Lyon, France</p>
-                            <br/>
-                            <div>2022-2023</div>
-                            <div>
-                                First year of master degree internship. The subject was Optimal Transportation for automatic alignment of untargeted metabolomic data.<br/>
-                                Notebook of the model created with python.
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-4 mb-4">
-                    <div class="custom-card card border">
-                        <div class="card-body">
-                            <h5>Kangam Labs:</h5>
-                            <p>Dakar, Sénégal</p>
-                            <br/>
-                            <div>2020-2021</div>
-                            <div>
-                                Second year of Bachelor degree. The subjects were oriented development.<br/>
-                                Web developpement with Springboot and symphony.<br/> Data mining with python.
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- End of Sectoin -->
-
-
-    <!-- Hire me section -->
-    <section class="bg-gray p-0 section">
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-white" data-spy="affix" data-offset-top="510">
         <div class="container">
-            <div class="card bg-primary">
-                <div class="card-body text-light">
-                    <div class="row align-items-center">
-                        <div class="col-sm-9 text-center text-sm-left">
-                            <h5 class="mt-3">Want To Hire Me For a Project ?</h5>
-                            <p class="mb-3">I'll be glad to work with/for you.</p>
-                        </div>
-                        <div class="col-sm-3 text-center text-sm-right">
-                            <a class="btn btn-light rounded" href="#contact">Hire Me!</a>
-                        </div>
-                    </div>
-                </div> 
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse mt-sm-20 navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#resume" class="nav-link">Resume</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav brand">
+                    <img src="assets/imgs/profile1.jpg" alt="" class="brand-img">
+                    <li class="brand-txt">
+                        <h5 class="brand-title">Wendyam YAMEOGO</h5>
+                        <div class="brand-subtitle">Junior Data scientist | Developer</div>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="#portfolio" class="nav-link">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#blog" class="nav-link">Blog</a>
+                    </li>
+                    <li class="nav-item last-item">
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                </ul>
             </div>
         </div>
-    </section>      
-    <!-- End od Hire me section. -->
-
-    <!-- Contact Section -->
-    <section id="contact" class="position-relative section">
-        <div class="container text-center">
-            <h6 class="subtitle">Contact</h6>
-            <h6 class="section-title mb-4">Get In Touch With Me</h6>
-            <p class="mb-5 pb-4">If you like to reach me out <br></p>
-
-            <div class="contact text-left">
-                <div class="form">
-                    <h6 class="subtitle">Available 24/7</h6>
-                    <h6 class="section-title mb-4">Get In Touch</h6>
-                    <form id="formulaire">
-                        <div class="form-group">
-                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" required>
-                        </div>
-                        <div class="form-group">
-                            <input type="number" class="form-control" id="exampleInputNumber1" placeholder="Phone number">
-                        </div>
-                        <div class="form-group">
-                            <textarea name="contact-message" id="message" cols="30" rows="5" class="form-control" placeholder="Message"></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary btn-block rounded w-lg" onclick="send()">Send Message</button>
-                    </form>
-                </div>
-                <div class="contact-infos">
-                    <div class="item">
-                        <i class="ti-location-pin"></i>
-                        <div class="">
-                            <h5>Location</h5>
-                            <p> Lyon, France</p>
-                        </div>                          
-                    </div>
-                    <div class="item">
-                        <i class="ti-mobile"></i>
-                        <div>
-                            <h5>Phone Number</h5>
-                            <p>(33) 6-43-60-28-52</p>
-                        </div>                          
-                    </div>
-                    <div class="item">
-                        <i class="ti-email"></i>
-                        <div class="mb-0">
-                            <h5>Email Address</h5>
-                            <p>yameogoivan10@gmail.com</p>
-                        </div>
-                    </div>
-                </div>                  
+    </nav>
+    <div class="container-fluid">
+        <div id="about" class="row about-section">
+            <div class="col-lg-4 about-card">
+                <h3 class="font-weight-light">Who am I ?</h3>
+                <span class="line mb-5"></span>
+                <h5 class="mb-3">A data scientist / Developer </h5>
+                <p class="mt-20">Located In France</p>
+                <button class="btn btn-outline-danger"><i class="icon-down-circled2 "></i>Download My CV</button>
             </div>
-        </div>  
-        <div id="map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d89077.18515711746!2d4.752558053812209!3d45.75792096064087!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f4ea516ae88797%3A0x408ab2ae4bb21f0!2sLyon!5e0!3m2!1sen!2sfr!4v1700036576109!5m2!1sen!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>      
-    </section>
-    <!-- End of Contact Section -->
+            <div class="col-lg-4 about-card">
+                <h3 class="font-weight-light">Personal Info</h3>
+                <span class="line mb-5"></span>
+                <ul class="mt40 info list-unstyled">
+                    <li><span>Birthdate</span> : 20/05/1999</li>
+                    <li><span>Email</span> : yameogoivan10@gmail.com</li>
+                    <li><span>Phone</span> : + (33) 6-43-60-28-52</li>
+                    <li><span>Address</span> :  3 rue Pierre-Louis Bernaix.</li>
+                </ul>
+                <ul class="social-icons pt-3">
+                    <li class="social-item"><a class="social-link" href="https://www.facebook.com/yameogoivan10/"><i class="ti-facebook" aria-hidden="true"></i></a></li>
+                    <li class="social-item"><a class="social-link" href="https://www.linkedin.com/in/wendyam-yameogo/"><i class="ti-linkedin" aria-hidden="true"></i></a></li>
+                    <li class="social-item"><a class="social-link" href="https://www.instagram.com/maximilien_ivan/"><i class="ti-instagram" aria-hidden="true"></i></a></li>
+                    <li class="social-item"><a class="social-link" href="https://github.com/Yameogo123"><i class="ti-github" aria-hidden="true"></i></a></li>
+                </ul>  
+            </div>
+            <div class="col-lg-4 about-card">
+                <h3 class="font-weight-light">My Expertise</h3>
+                <span class="line mb-5"></span>
+                <div class="row">
+                    <div class="col-1 text-danger pt-1"><i class="ti-widget icon-lg"></i></div>
+                    <div class="col-10 ml-auto mr-3">
+                        <h6>Machine learning</h6>
+                        <p class="subtitle"> Applied Mathematics for models productions</p>
+                        <hr>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-1 text-danger pt-1"><i class="ti-paint-bucket icon-lg"></i></div>
+                    <div class="col-10 ml-auto mr-3">
+                        <h6>Deep learning</h6>
+                        <p class="subtitle">Go further with AI models as LLM (NLP)</p>
+                        <hr>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-1 text-danger pt-1"><i class="ti-stats-up icon-lg"></i></div>
+                    <div class="col-10 ml-auto mr-3">
+                        <h6>Web/App Development</h6>
+                        <p class="subtitle">Web and mobile apps development</p>
+                        <hr>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-    <!-- Page Footer -->
-    <footer class="page-footer">
+    <!--Resume Section-->
+    <section class="section" id="resume">
         <div class="container">
+            <h2 class="mb-5"><span class="text-danger">My</span> Resume</h2>
+            <div class="row">
+                <div class="col-md-6 col-lg-4">
+                    <div class="card">
+                       <div class="card-header">
+                            <div class="mt-2">
+                                <h4>Expertise</h4>
+                                <span class="line"></span>  
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h6 class="title text-danger">2023 - Present</h6>
+                            <P>Machine and Deep Learning</P>
+                            <P class="subtitle">
+                                Experience in data started with first internship of master 1 degree.
+                            </P>
+                            <hr>
+                            <h6 class="title text-danger">2022 - Present</h6>
+                            <P>Development</P>
+                            <P class="subtitle">
+                                Freelance developper since third year of bachelor degree; specially in CMS as wordpress, framework as react
+                            </P>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card">
+                       <div class="card-header">
+                            <div class="mt-2">
+                                <h4>Education</h4>
+                                <span class="line"></span>  
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h6 class="title text-danger">2022 - Present</h6>
+                            <P>`Statistiques et Informatiques pour la Science des donnéEs` (SISE)</P>
+                            <P class="subtitle">
+                                Two years of master's degree focused on data science during which the skills learned and highlighted are <br/>
+                                <ul>
+                                    <li>machine learning: analysis with python, power BI and tableau, engineering with python, talend scientist with python R ... </li>
+                                    <li>deep learning: with python, dataiku...</li>
+                                </ul>
+                            </P>
+                            <hr>
+                            <h6 class="title text-danger">2019 - 2022</h6>
+                            <P>`Mathematiques appliquées à l'Informatiques et l'Économétrie`</P>
+                            <P class="subtitle">
+                                Three years of a double degree in computer science to deepen algorithmic knowledge and the web and mobile development part (python, java, php);
+                                in mathematics to deepen knowledge in econometrics, financial math and data analysis (SPSS, Excel, Tanagra, python).
+                            </P>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card">
+                       <div class="card-header">
+                            <div class="pull-left">
+                                <h4 class="mt-2">Skills</h4>
+                                <span class="line"></span>  
+                            </div>
+                        </div>
+                        <div class="card-body pb-2">
+                           <h6>Python, SQL &amp; R</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 97%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>Javascript &amp; Java</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 80%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>PHP</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 90%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                       <div class="card-header">
+                            <div class="pull-left">
+                                <h4 class="mt-2">Outils</h4>
+                                <span class="line"></span>  
+                            </div>
+                        </div>
+                        <div class="card-body pb-2">
+                           <h6>Dataiku, SQL Server &amp; Knime</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 95%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>Power BI, Tableau, SSIS, Docker &amp; AzureML</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 85%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>React, wordpress, FastAPI</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 90%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- <section class="section bg-dark text-center">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-6 col-lg-3">
+                    <div class="row ">
+                        <div class="col-5 text-right text-light border-right py-3">
+                            <div class="m-auto"><i class="ti-alarm-clock icon-xl"></i></div>
+                        </div>
+                        <div class="col-7 text-left py-3">
+                            <h1 class="text-danger font-weight-bold font40">500</h1>
+                            <p class="text-light mb-1">Hours Worked</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="row">
+                        <div class="col-5 text-right text-light border-right py-3">
+                            <div class="m-auto"><i class="ti-layers-alt icon-xl"></i></div>
+                        </div>
+                        <div class="col-7 text-left py-3">
+                            <h1 class="text-danger font-weight-bold font40">50K</h1>
+                            <p class="text-light mb-1">Project Finished</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="row">
+                        <div class="col-5 text-right text-light border-right py-3">
+                            <div class="m-auto"><i class="ti-face-smile icon-xl"></i></div>
+                        </div>
+                        <div class="col-7 text-left py-3">
+                            <h1 class="text-danger font-weight-bold font40">200K</h1>
+                            <p class="text-light mb-1">Happy Clients</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="row">
+                        <div class="col-5 text-right text-light border-right py-3">
+                            <div class="m-auto"><i class="ti-heart-broken icon-xl"></i></div>
+                        </div>
+                        <div class="col-7 text-left py-3">
+                            <h1 class="text-danger font-weight-bold font40">2k</h1>
+                            <p class="text-light mb-1">Coffee Drinked</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <section class="section" id="service">
+        <div class="container">
+            <h2 class="mb-5 pb-4"><span class="text-danger">My</span> Internships</h2>
+            <div class="row">
+                <div class="col-md-12 col-sm-6">
+                    <div class="card mb-5">
+                       <div class="card-header has-icon">
+                            march 2024 - sept 2024 à Lyon, France
+                        </div>
+                        <div class="card-body px-4 py-3">
+                            <h5 class="mb-3 card-title text-dark">Data intern at Keyrus France</h5>
+                            <P class="subtitle">
+                                <ul>
+                                    <li>
+                                        <h6>Synthetic data Generation</h6>
+                                        <span>
+                                            <b>Context</b><br/>
+                                            Our client, a major player in the mutual insurance sector, is currently recovering 
+                                            data from the various mutual insurance companies in France. He would like to be able 
+                                            to provide mutual insurance companies with datasets representative of the French 
+                                            population today in order to enable advanced analytical exploitation: scenario 
+                                            simulation, forecasting, etc. The objective is through a POC to demonstrate to 
+                                            them the possibilities offered by synthetic data<br/>
+
+                                            <b>Missions</b><br/>
+                                            - Understanding of the need <br/>
+                                            - Creation of an algorithm for automatic generation of synthetic data <br/>
+                                            - Benchmark of existing solutions <br/>
+                                            - Presentation and demonstration of the tool during customer feedback <br/>
+                                        </span><br/>
+                                    </li>
+                                    <li>
+                                        <h6>Hackathon dataiku</h6>
+                                        <span>
+                                            <b>Context</b><br/>
+                                            As part of a Hackathon organized by Dataiku, the objective of this hackathon is 
+                                            to develop a solution using the latest Dataiku features on Generative AI and LLMs 
+                                            on the theme "Fan Enablement Challenge". The objectives are:<br/>
+                                            - Use LLM Mesh functionalities <br/>
+                                            - Develop an understanding of the architecture of LLM Mesh<br/>
+                                            - Communicate results through social networks<br/>
+
+                                            <b>Assignment</b><br/>
+                                            - Identify a dataset on which to carry out the hackathon <br/>
+                                            - Use the Dataiku platform to analyze, explore, categorize, use LLM models, etc. <br/>
+                                            - Work within a team of 4 people <br/>
+                                        </span><br/>
+                                    </li>
+                                    <li>
+                                        <h6>Tierce Maintenance Applicative</h6>
+                                        <span>
+                                            <b>Context</b><br/>
+                                            For the Botanic customer, simple and scalable maintenance is implemented. As part 
+                                            of my end-of-study internship, I have to work on this client's TMA.<br/>
+
+                                            <b>Missions</b><br/>
+                                            The missions are diverse and of varying importance: <br/>
+                                            - Daily checks on the TMA (proper execution of jobs, data feedback, sending reports) <br/>
+                                            - Flow evolution to add controls. <br/>
+                                        </span>
+                                    </li>
+                                </ul>
+                            </P>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 col-sm-6">
+                    <div class="card mb-5">
+                       <div class="card-header has-icon">
+                            jul. 2024 - aujourd’hui à Lyon, France
+                        </div>
+                        <div class="card-body px-4 py-3">
+                            <h5 class="mb-3 card-title text-dark">IT Manager at Lafya Proj'etude Home</h5>
+                            <P class="subtitle">
+                                Freelance IT department manager. Intervenes occasionally on the creation and maintenance of assets linked to the Lafya company
+                            </P>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 col-sm-6">
+                    <div class="card mb-5">
+                       <div class="card-header has-icon">
+                            may 2023 - august 2023 à Lyon, France
+                        </div>
+                        <div class="card-body px-4 py-3">
+                            <h5 class="mb-3 card-title text-dark">Data Science Intern at International Agency for Research on Cancer</h5>
+                            <P class="subtitle">
+                                𝗖𝗼𝗻𝘁𝗲𝘅𝘁 <br/>
+                                As part of the validation of the master 1, I did an internship in the field of data at 
+                                the International Center for Research on Cancer.<br/>
+
+                                𝗦𝘂𝗯𝗷𝗲𝗰𝘁 <br/>
+                                Optimal transport for automatic alignment of untargeted metabolomics data. <br/>
+
+                                𝗔𝘀𝘀𝗶𝗴𝗻𝗺𝗲𝗻𝘁 <br/>
+                                • Set up a detailed restitution notebook and use of the alignment model set up. <br/>
+                                • In R, understand the developed preprocessing code and update it to adapt it to new data. <br/>
+                                • Verify that the developed model generalizes well to new metabolite data. <br/>
+                            </P>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 col-sm-6">
+                    <div class="card mb-5">
+                       <div class="card-header has-icon">
+                            jul. 2021 - nov. 2021 à Dakar au Sénégal
+                        </div>
+                        <div class="card-body px-4 py-3">
+                            <h5 class="mb-3 card-title text-dark">development and data internship at Kangam-Labs</h5>
+                            <P class="subtitle">
+                                𝗖𝗼𝗻𝘁𝗲𝘅𝘁<br/>
+                                To deepen my skills in the field of development, I completed a free internship in license 2.<br/>
+
+                                𝗠𝗶𝘀𝘀𝗶𝗼𝗻𝘀<br/>
+                                • Improved skills in creating backends with SpringBoot<br/>
+                                • Deepen full-stack development with the Symfony framework (php+twig)<br/>
+                                • Learn a little AI with python for CV exploitation.<br/>
+                            </P>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section bg-custom-gray" id="price">
+        <div class="container">
+            <h1 class="mb-5"><span class="text-danger">Some</span> Certifications</h1>
             <div class="row align-items-center">
-                <div class="col-sm-6">
-                    <p>Modified by TnT &copy;</p>
+                <div class="col-md-6 col-lg-6">
+                    <div class="price-card text-center mb-4">
+                        <h3 class="price-card-title">Dataiku Core Designer</h3>
+                        <a target="_blank" href="https://verify.skilljar.com/c/6wj3cy56r46x" class="btn btn-primary btn-rounded w-lg">See</a>
+                    </div>
                 </div>
-                <div class="col-sm-6">
-                    <div class="socials">
-                        <a class="social-item" href="https://www.linkedin.com/in/wendyam-yameogo/"><i class="ti-linkedin"></i></a>
-                        <a class="social-item" href="https://github.com/Yameogo123"><i class="ti-github"></i></a>
+                <div class="col-md-6 col-lg-6">
+                    <div class="price-card text-center mb-4">
+                        <h3 class="price-card-title">Dataiku ML Practitioner</h3>
+                        <a target="_blank" href="https://verify.skilljar.com/c/o8ujb8gdbock" class="btn btn-primary btn-rounded w-lg">See</a>
                     </div>
                 </div>
             </div>
         </div>
-    </footer> 
-    <!-- End of page footer -->
-	
+    </section>
+    <section class="section bg-dark py-5">
+        <div class="container text-center">
+            <h2 class="text-light mb-5 font-weight-normal">I Am Available For FreeLance</h2>
+            <a class="btn bg-primary w-lg" href="#contact">Hire me</a>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="section bg-custom-gray" id="portfolio">
+        <div class="container">
+            <h1 class="mb-5"><span class="text-danger">My</span> Portfolio</h1>
+            <div class="portfolio">
+                <div class="filters">
+                    <a href="#" data-filter=".new" class="active">
+                        All
+                    </a>
+                    <a href="#" data-filter=".data">
+                        Data
+                    </a>
+                    <a href="#" data-filter=".apps">
+                        Apps
+                    </a>
+                    <a href="#" data-filter=".web">
+                        Web
+                    </a>
+                </div>
+                <div class="portfolio-container"> 
+                    <div class="col-md-6 col-lg-4 web new">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/wordp.jpeg" class="img-fluid" alt="asso">
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/wordp.jpeg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">Wordpress</h6>
+                                    <p class="subtitle">Association EJI!</p>
+                                    <a class="btn bg-success" href="https://assoeji.com"><i class="ti-link"></i></a>
+                                </div>
+                            </div> 
+                        </div>                         
+                    </div>
+                    <div class="col-md-6 col-lg-4 data new">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/data.png" class="img-fluid" alt="ml">                         
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/data.png"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">Machine learning</h6>
+                                    <p class="subtitle">Houses prices prediction</p>
+                                    <a  class="btn bg-success" href="https://github.com/Naghan1132/Property_price_prediction"><i class="ti-github"></i></a>
+                                </div>
+                            </div>    
+                        </div>              
+                    </div> 
+                    <div class="col-md-6 col-lg-4 web new">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/wordp.jpeg" class="img-fluid" alt="wordpress 1">
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/wordp.jpeg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">Wordpress</h6>
+                                    <p class="subtitle">Lafya Proj'Etude Home</p>
+                                    <a class="btn bg-success" href="https://lafya-projet-etude.fr"><i class="ti-link"></i></a>
+                                </div>
+                            </div>
+                        </div>                                                     
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 apps new"> 
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/appstore.png" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">                               
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/appstore.png"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">Apps</h6>
+                                    <p class="subtitle">Bokoo carpool</p>
+                                </div>
+                            </div>
+                        </div>                                                       
+                    </div> 
+                    <div class="col-md-6 col-lg-4 web new">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/wordp.jpeg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">  
+                           <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/wordp.jpeg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">Wordpress</h6>
+                                    <p class="subtitle">Maguibissau!</p>
+                                    <a class="btn bg-success" href="https://www.maguibissau.com"><i class="ti-link"></i></a>
+                                </div>
+                            </div>
+                        </div>                                                     
+                    </div>
+                    <div class="col-md-6 col-lg-4 data new">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/docker.png" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">       
+                           <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/docker.png"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">MLOps</h6>
+                                    <p class="subtitle">Docker and HuggingFace</p>
+                                    <a class="btn bg-success" href=" https://yameogo123-backend.hf.space/docs"><i class="ti-link"></i></a>
+                                    <a class="btn bg-success" href=" https://yameogo123-frontend.hf.space"><i class="ti-link"></i></a>
+                                </div>
+                            </div>
+                        </div>                                                       
+                    </div> 
+                    <div class="col-md-6 col-lg-4 data new"> 
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/nv.webp" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">            
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/nv.webp"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">Package in R</h6>
+                                    <p class="subtitle">Naive Bayes Classifier</p>
+                                    <a  class="btn bg-success" href="https://github.com/Yameogo123/naive_bayes_classifier"><i class="ti-github"></i></a>
+                                </div>
+                            </div>
+                        </div>    
+                    </div> 
+                </div> 
+            </div>  
+        </div>            
+    </section>
+    <!-- End of portfolio section -->
+
+    <!-- <section class="section" id="blog">
+        <div class="container">
+            <h2 class="mb-5">Latest <span class="text-danger">News</span></h2>
+            <div class="row">
+                <div class="blog-card">
+                    <div class="img-holder">
+                        <img src="assets/imgs/blog1.jpg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                    </div>
+                    <div class="content-holder">
+                        <h6 class="title">Consectetur adipisicing elit</h6>
+
+                        <p class="post-details">
+                            <a href="#">By: Admin</a>
+                            <a href="#"><i class="ti-heart text-danger"></i> 234</a>
+                            <a href="#"><i class="ti-comment"></i> 123</a>
+                        </p>
+                        
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet nesciunt qui sit velit delectus voluptates, repellat ipsum culpa id deleniti. Rerum debitis facilis accusantium neque numquam mollitia modi quasi distinctio.</p>
+
+                        <p><b>Necessitatibus nihil impedit! Ex nisi eveniet, dolor aliquid consequuntur repudiandae.</b></p>
+                        <p>Magnam in repellat enim harum omnis aperiam! Explicabo illo, commodi, dolor blanditiis cupiditate harum nisi vero accusamus laudantium voluptatibus dolores quae obcaecati.</p>
+
+                        <a href="#" class="read-more">Read more <i class="ti-angle-double-right"></i></a>
+                    </div>
+                </div>
+
+                
+                <div class="blog-card">
+                    <div class="img-holder">
+                        <img src="assets/imgs/blog2.jpg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                    </div>
+                    <div class="content-holder">
+                        <h6 class="title">Explicabo illo</h6>
+
+                        <p class="post-details">
+                            <a href="#">By: Admin</a>
+                            <a href="#"><i class="ti-heart text-danger"></i> 456</a>
+                            <a href="#"><i class="ti-comment"></i> 264</a>
+                        </p>
+                        
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit excepturi laborum enim, vitae ipsam atque eum, ad iusto consequuntur voluptas, esse doloribus. Perferendis porro quisquam vitae exercitationem aliquid, minus eos laborum repudiandae, cumque debitis iusto omnis praesentium? Laborum placeat sit adipisci illum tempore maxime, esse qui quae? Molestias excepturi corporis similique doloribus. Esse vitae earum architecto nulla non dolores illum at perspiciatis quod, et deleniti cupiditate reiciendis harum facere, delectus eum commodi soluta distinctio sit repudiandae possimus sunt. Ipsum, rem.</p>
+
+                        <a href="#" class="read-more">Read more <i class="ti-angle-double-right"></i></a>
+                    </div>
+                </div>
+                <div class="blog-card">
+                    <div class="img-holder">
+                        <img src="assets/imgs/blog3.jpg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                    </div>
+                    <div class="content-holder">
+                        <h4 class="title">Porro Quisqua</h4>
+
+                        <p class="post-details">
+                            <a href="#">By: Admin</a>
+                            <a href="#"><i class="ti-heart text-danger"></i> 431</a>
+                            <a href="#"><i class="ti-comment"></i> 312</a>
+                        </p>
+                        
+                        <p> consectetur adipisicing elit. Impedit excepturi laborum enim, vitae ipsam atque eum, ad iusto consequuntur voluptas, esse doloribus. Perferendis porro quisquam vitae exercitationem aliquid, minus eos laborum repudiandae, cumque debitis iusto omnis praesentium? Laborum placeat sit adipisci illum tempore maxime, esse qui quae? Molestias excepturi corporis similique doloribus. Esse vitae earum architecto nulla non dolores illum at perspiciatis quod, et deleniti cupiditate reiciendis harum facere, delectus eum commodi soluta distinctio sit repudiandae possimus sunt. Ipsum, rem.</p>
+
+                        <a href="#" class="read-more">Read more <i class="ti-angle-double-right"></i></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section> -->
+
+    <div class="section contact" id="contact">
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d89077.18515711746!2d4.752558053812209!3d45.75792096064087!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f4ea516ae88797%3A0x408ab2ae4bb21f0!2sLyon!5e0!3m2!1sen!2sfr!4v1700036576109!5m2!1sen!2sfr" width="100%" height="450" style="border:0;" allowfullscreen="true" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="contact-form-card">
+                        <h4 class="contact-title">Send a message</h4>
+                        <form action="">
+                            <div class="form-group">
+                                <input class="form-control" id="name" type="text" placeholder="Name *" required>
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control" id="email" type="email" placeholder="Email *" required>
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control" id="message" placeholder="Message *" rows="7" required></textarea>
+                            </div>
+                            <div class="form-group ">
+                                <button type="submit" class="form-control btn btn-primary" >Send Message</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="contact-info-card">
+                        <h4 class="contact-title">Get in touch</h4>
+                        <div class="row mb-2">
+                            <div class="col-1 pt-1 mr-1">
+                                <i class="ti-mobile icon-md"></i>
+                            </div>
+                            <div class="col-10 ">
+                                <h6 class="d-inline">Phone : <br> <span class="text-muted">+ (33) 6-43-60-28-52</span></h6>
+                            </div>
+                        </div>
+                        <div class="row mb-2">
+                            <div class="col-1 pt-1 mr-1">
+                                <i class="ti-map-alt icon-md"></i>
+                            </div>
+                            <div class="col-10">
+                                <h6 class="d-inline">Address :<br> <span class="text-muted">3 rue Pierre Louis Bernaix</span></h6>
+                            </div>
+                        </div>
+                        <div class="row mb-2">
+                            <div class="col-1 pt-1 mr-1">
+                                <i class="ti-envelope icon-md"></i>
+                            </div>
+                            <div class="col-10">
+                                <h6 class="d-inline">Email :<br> <span class="text-muted">yameogoivan10@gmail.com</span></h6>
+                            </div>
+                        </div>
+                        <ul class="social-icons pt-4">
+                            <li class="social-item"><a class="social-link text-dark" href="https://www.facebook.com/yameogoivan10/"><i class="ti-facebook" aria-hidden="true"></i></a></li>
+                            <li class="social-item"><a class="social-link text-dark" href="https://www.linkedin.com/in/wendyam-yameogo/"><i class="ti-linkedin" aria-hidden="true"></i></a></li>
+                            <li class="social-item"><a class="social-link text-dark" href="https://www.instagram.com/maximilien_ivan/"><i class="ti-instagram" aria-hidden="true"></i></a></li>
+                            <li class="social-item"><a class="social-link text-dark" href="https://github.com/Yameogo123"><i class="ti-github" aria-hidden="true"></i></a></li>
+                        </ul> 
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <footer class="footer py-3">
+        <div class="container">
+            <!-- <p class="small mb-0 text-light">
+                &copy; <script>document.write(new Date().getFullYear())</script> Created With <i class="ti-heart text-danger"></i> By <a href="http://devcrud.com" target="_blank"><span class="text-danger" title="Bootstrap 4 Themes and Dashboards">DevCRUD</span></a> 
+            </p> -->
+        </div>
+    </footer>
+
 	<!-- core  -->
     <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
     <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
-    <!-- bootstrap 3 affix -->
-	<script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
 
-    <!-- steller js -->
-    <script src="assets/js/steller.js"></script>
+    <!-- bootstrap 3 affix -->
+    <script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
+
+    <!-- Isotope  -->
+    <script src="assets/vendors/isotope/isotope.pkgd.js"></script>
+    
+    <!-- Google mpas -->
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCtme10pzgKSPeJVJrG1O3tjR6lk98o4w8&callback=initMap"></script>
+
+    <!-- JohnDoe js -->
+    <script src="assets/js/johndoe.js"></script>
 
     <script>
         const send= async ()=>{
             event.preventDefault()
-            const email= document.getElementById("exampleInputEmail1").value
-            const number= document.getElementById("exampleInputNumber1").value
+            const email= document.getElementById("email").value
+            const name= document.getElementById("name").value
             const message= document.getElementById("message").value
 
             const opt={
                 "app_key":"647606299B1A3647606299B1A4",
                 "sender":"Bokoo",
-                "content": "("+email + " "+number+ ") : "+message,
+                "content": "("+email + " "+name+ ") : "+message,
                 "msisdn":[
                     "33643602852"
                 ]
@@ -535,9 +739,6 @@
 
             if(validateEmail(email)){
                 if(message!=""){
-                    // const content = 'Hello world';
-                    // const file = 'file.txt';
-                    // write(file, content);
                     const response = await fetch("https://gateway.intechsms.sn/api/send-sms", options);
                     const rep= response.json();
                     document.getElementById("formulaire").reset();

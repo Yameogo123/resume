@@ -1,40 +1,44 @@
+body {
+}
+/* typography */
 p {
-	font-size: calc(14px + (16 - 14) * ((100vw - 320px) / (1200 - 320)));
-	margin-bottom: 12px;
-	letter-spacing: .6px;
-}
-h1,h2,h3,h4,h5,h6 {
-	margin-bottom: 5px;
-}
+	font-size: calc(13px + (14 - 13) * ((100vw - 300px) / (1300 - 300)));
+	opacity: .8;
+	color: #444;
+} 
 
 .title {
-	font-size: calc(18px + (25 - 18) * ((100vw - 320px) / (1200 - 320)));
-	
-	@include media-breakpoint-up(lg) {
-		font-size: 28px;
-	}
+	font-size: calc(15px + (20 - 15) * ((100vw - 300px) / (1300 - 300)));
 }
 
-.section-title {
-	font-size: calc(20px + (30 - 20) * ((100vw - 320px) / (1200 - 320)));
-	
-	@include media-breakpoint-up(lg) {
-		font-size: 30px;
-	}
+.icon-md {
+    font-size: 22px;
 }
 
-.subtitle {
-	font-size: calc(13px + (15 - 13) * ((100vw - 320px) / (1200 - 320)));
-	opacity: .8;
-	
-	@include media-breakpoint-up(lg) {
-		font-size: 15px;
-	}
+.icon-lg {
+    font-size: 30px;
 }
 
-pre {
-	background: $pre-bg;
-	border: 2px solid $pre-border-color;
-	padding: $spacer;
-	border-radius: $border-radius;
+.icon-xl {
+	font-size: 65px;
+}
+
+.info {
+    li {
+        padding-bottom: 8px;
+    }
+    span {
+        font-weight: 600;
+        font-size: 14px;
+        color: $gray-800;
+    }
+    color: $gray-600;
+    font-size: 14px;
+}
+
+.line {
+    display: block;
+    width: 25px;
+    height: 1.5px;
+    background-color: $primary;
 }

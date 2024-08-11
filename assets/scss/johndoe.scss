@@ -1,6 +1,6 @@
 /*!
 =========================================================
-* Steller Landing page
+* JohnDoe Landing page
 =========================================================
 
 * Copyright: 2019 DevCRUD (https://devcrud.com)
@@ -65,14 +65,15 @@
 // custom 
 @import "base/typography";
 
-@import "components/buttons";
-@import "components/cards";
-@import "components/carousel";
-@import "components/forms";
-@import "components/googlemap";
-@import "components/navbar";
-@import "components/progressbar";
+@import "components/breadcrumb";
+@import "components/button";
+@import "components/card";
+@import "components/code";
+@import "components/dropdowns";
+@import "components/nav";
+@import "components/navbars";
+@import "components/pagination";
 
 @import "layout/footer";
 @import "layout/header";
-@import "layout/section";
+@import "layout/sections";
